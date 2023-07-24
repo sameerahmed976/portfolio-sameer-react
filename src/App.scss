@@ -403,7 +403,7 @@ p {
   left: 0;
   right: 0;
   height: 100%;
-  width: 85%;
+  width: 95%;
   opacity: 0;
   z-index: 200;
   transition: 0.5s ease;
@@ -479,7 +479,7 @@ p {
 .slide__top {
   position: fixed;
   opacity: 0;
-  top: 70%;
+  top: 55%;
   right: 1rem;
   z-index: 1;
   color: var(--accent1);
@@ -497,6 +497,15 @@ p {
   opacity: 1;
 }
 
+.slide__top__image {
+  height: 3rem;
+  transition: var(--transition-2);
+  width: 3rem;
+  &:hover {
+    transform: translateY(15px);
+    transition: var(--transition-2);
+  }
+}
 // ! /* slide up end */
 
 /* theme icon end */
@@ -977,6 +986,7 @@ p {
     top: 0;
     left: 0;
     order: 2;
+    padding: 1rem;
     margin-left: 1rem;
   }
 
