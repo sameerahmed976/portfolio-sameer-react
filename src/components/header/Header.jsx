@@ -10,6 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     setSideBar(false);
+    loadTheme(getCurrentColor());
   }, []);
 
   /* get  current color */
