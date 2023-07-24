@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className="projects__card__back">
                   <div className="projects__btn__group">
                     <a
-                      href="https://cocktail-shop-react.vercel.app/"
+                      href="https://github-finder-react-self.vercel.app/"
                       target="_blank"
                       className="btn--demo"
                       rel="noreferrer"
@@ -62,7 +62,7 @@ const Projects = () => {
                       Live Demo
                     </a>
                     <a
-                      href="https://github.com/sameerahmed976/cocktail__shop__cart-react"
+                      href="https://github.com/sameerahmed976/github__finder__react"
                       target="_blank"
                       className="btn--code"
                       rel="noreferrer"
