@@ -514,7 +514,7 @@ p {
 
 .hero {
   background-color: var(--bg2);
-  padding-top: 5rem;
+  padding-top: 12rem;
   padding-bottom: 0;
   &__container {
     display: flex;
@@ -1022,7 +1022,9 @@ p {
   }
 
   .hero__container {
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4rem;
+    align-items: start;
   }
 
   .skills {
@@ -1077,7 +1079,7 @@ p {
 // !  /* min-width 768 and up */
 @media (min-width: 768px) {
   .hero__container {
-    min-height: 40vh;
+    min-height: 30vh;
   }
 }
 

@@ -9,7 +9,7 @@ const Hero = () => {
             <p className="hero__text">I am Full Stack Developer</p>
 
             <a
-              href="/sameer_ahmed__resume__full_stack__mern__developer.pdf"
+              href="/mohammed_sameer_ahmed_react_and_full_stack_mern_developer.pdf"
               download
               className="btn btn--download"
             >
