@@ -768,8 +768,10 @@ p {
   &__btn__group {
     display: flex;
     text-align: center;
+    flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
+
     padding-top: 100px;
   }
 }
