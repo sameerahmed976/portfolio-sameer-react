@@ -21,7 +21,7 @@ const Projects = () => {
                 <div className="projects__card__back">
                   <div className="projects__btn__group">
                     <a
-                      href="https://workout-tracker-ixpy.onrender.com"
+                      href="https://workout-tracker-list.netlify.app/"
                       target="_blank"
                       className="btn--demo"
                       rel="noreferrer"
