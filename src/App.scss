@@ -71,6 +71,12 @@
 
   --bg2-light: #fdfdfd;
 
+  --shades-dark-1: #1a1a1a;
+  --shades-dark-2: #171717;
+  --shades-dark-3: #151515;
+  --shades-dark-4: #121212;
+  --shades-dark-5: #101010;
+
   /* dark colors */
 
   --accent1-dark: #00800f;
@@ -86,6 +92,12 @@
   --white: #fff;
 
   --black: #000;
+
+  --shades-light-1: #e6e6e6;
+  --shades-light-2: #cfcfcf;
+  --shades-light-3: #cccccc;
+  --shades-light-4: #b3b3b3;
+  --shades-light-5: #999999;
 
   --btn-gradient: linear-gradient(220.55deg, #ffd439 0%, #ff7a00 100%);
 
@@ -113,6 +125,11 @@
     --bg1: var(--bg1-dark);
 
     --bg2: var(--bg2-dark);
+    --shades-1: var(--shades-dark-1);
+    --shades-2: var(--shades-dark-2);
+    --shades-3: var(--shades-dark-3);
+    --shades-4: var(--shades-dark-4);
+    --shades-5: var(--shades-dark-5);
   }
 }
 
@@ -130,6 +147,11 @@
   --bg1: var(--bg1-dark);
 
   --bg2: var(--bg2-dark);
+  --shades-1: var(--shades-dark-1);
+  --shades-2: var(--shades-dark-2);
+  --shades-3: var(--shades-dark-3);
+  --shades-4: var(--shades-dark-4);
+  --shades-5: var(--shades-dark-5);
 }
 
 @media (prefers-color-scheme: light) {
@@ -145,6 +167,12 @@
     --bg1: var(--bg1-light);
 
     --bg2: var(--bg2-light);
+
+    --shades-1: var(--shades-light-1);
+    --shades-2: var(--shades-light-2);
+    --shades-3: var(--shades-light-3);
+    --shades-4: var(--shades-light-4);
+    --shades-5: var(--shades-light-5);
   }
 }
 
@@ -160,6 +188,11 @@
   --bg1: var(--bg1-light);
 
   --bg2: var(--bg2-light);
+  --shades-1: var(--shades-light-1);
+  --shades-2: var(--shades-light-2);
+  --shades-3: var(--shades-light-3);
+  --shades-4: var(--shades-light-4);
+  --shades-5: var(--shades-light-5);
 }
 
 *,
@@ -290,8 +323,8 @@ p {
 /* underline end */
 
 .section {
-  padding: 2rem 0;
-  padding-top: 5rem;
+  padding: 5rem 0;
+  // padding-top: 5rem;
 }
 
 .section__title {
@@ -513,9 +546,9 @@ p {
 // ! /* hero  */
 
 .hero {
-  background-color: var(--bg2);
+  background-color: var(--shades-1);
   padding-top: 12rem;
-  padding-bottom: 0;
+  padding-bottom: 8rem;
   &__container {
     display: flex;
     padding-top: 1rem;
@@ -611,7 +644,7 @@ p {
 /* about */
 
 .about {
-  background-color: var(--bg2);
+  background-color: var(--shades-2);
   &__title {
     padding-top: 2rem;
     color: var(--accent2);
@@ -654,7 +687,7 @@ p {
 // ! /* Skills */
 
 .skills {
-  background-color: var(--bg2);
+  background-color: var(--shades-3);
   &__title {
     color: var(--accent2);
     font-weight: bold;
@@ -702,7 +735,7 @@ p {
 
 // ! /* projects */
 .projects {
-  background-color: var(--bg2);
+  background-color: var(--shades-4);
   &__title {
     color: var(--accent2);
     padding-top: 2rem;
@@ -772,7 +805,7 @@ p {
     gap: 0.5rem;
     justify-content: center;
 
-    padding-top: 100px;
+    padding-top: 70px;
   }
 }
 
@@ -786,6 +819,8 @@ p {
   border-radius: 1rem;
   font-size: var(--font-size-h6);
   transition: var(--transition-2);
+  width: 150px;
+  margin: 0 auto;
   &:hover {
     background-color: var(--accent1);
     transform: translateY(5px);
@@ -799,6 +834,8 @@ p {
   border-radius: 1rem;
   font-size: var(--font-size-h6);
   transition: var(--transition-2);
+  width: 150px;
+  margin: 0 auto;
   &:hover {
     background-color: var(--accent1);
     transform: translateY(5px);
@@ -810,7 +847,7 @@ p {
 // ! /* contact */
 
 .contact {
-  background-color: var(--bg2);
+  background-color: var(--shades-5);
   &__title {
     font-weight: bold;
     color: var(--accent1);
@@ -1035,6 +1072,7 @@ p {
 
   .skills__container {
     grid-template-rows: 1fr auto;
+    padding-bottom: 4rem;
   }
 
   .projects {
