@@ -126,7 +126,7 @@ const Header = () => {
                         Skills
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="#projects"
                         className="scroll__link"
@@ -135,7 +135,7 @@ const Header = () => {
                         {" "}
                         Projects
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="#contact"

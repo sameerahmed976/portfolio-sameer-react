@@ -19,7 +19,7 @@ const Skills = () => {
                 />
                 React
               </li>
-              <li className="skills__check">
+              {/* <li className="skills__check">
                 {" "}
                 <img
                   src="/check-circle.svg"
@@ -27,7 +27,7 @@ const Skills = () => {
                   className="skills__circle"
                 />
                 Bootstrap
-              </li>
+              </li> */}
               <li className="skills__check">
                 {" "}
                 <img
@@ -69,7 +69,7 @@ const Skills = () => {
                 />
                 Nodejs
               </li>
-              <li className="skills__check">
+              {/* <li className="skills__check">
                 {" "}
                 <img
                   src="/check-circle.svg"
@@ -77,8 +77,8 @@ const Skills = () => {
                   className="skills__circle"
                 />
                 Express.js
-              </li>
-              <li className="skills__check">
+              </li> */}
+              {/* <li className="skills__check">
                 {" "}
                 <img
                   src="/check-circle.svg"
@@ -86,7 +86,7 @@ const Skills = () => {
                   className="skills__circle"
                 />
                 MongoDB
-              </li>
+              </li> */}
             </ul>
           </article>
 
@@ -102,7 +102,7 @@ const Skills = () => {
                 />
                 Git
               </li>
-              <li className="skills__check">
+              {/* <li className="skills__check">
                 {" "}
                 <img
                   src="/check-circle.svg"
@@ -110,7 +110,7 @@ const Skills = () => {
                   className="skills__circle"
                 />
                 Postman
-              </li>
+              </li> */}
             </ul>
           </article>
         </section>

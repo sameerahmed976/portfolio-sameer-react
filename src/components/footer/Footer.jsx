@@ -19,11 +19,11 @@ const Footer = () => {
                 Skills
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#projects" className="scroll__link">
                 Projects
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="scroll__link">
                 Contact
