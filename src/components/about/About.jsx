@@ -10,7 +10,7 @@ const About = () => {
         <section className="section__center about__container">
           <article className="about__content">
             <p className="about__text">
-              Highly motivated and detail-oriented JavaScript,React JS Developer
+              Highly motivated and detail-oriented JavaScript,React Developer
               with a strong foundation in web development and a passion for
               creating user-friendly and efficient applications. Seeking an
               entry-level position to leverage theoretical knowledge and
