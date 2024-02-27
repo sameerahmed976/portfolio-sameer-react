@@ -6,7 +6,7 @@ const Hero = () => {
           <article className="hero__content">
             <h1 className="hero__title">Hello, I am Sameer</h1>
 
-            <p className="hero__text">I am Full Stack Developer</p>
+            <p className="hero__text">I'm JavaScript,REACT JS Developer</p>
 
             <a
               href="/mohammed_sameer_ahmed_react_and_full_stack_mern_developer.pdf"
